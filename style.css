@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header-actions {
+    position: absolute;
+    right: 20px;
+    top: 60px; /* Adjusted to fit better */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-socialize-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.donate-button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.go-button, .socialize-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.go-button {
+    background-color: #007bff;
+}
+
+.socialize-button {
+    background-color: #28a745;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+.hyrje {
+    display: flex;
+    justify-content: space-between;
+    background-color: #204080;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hyrje pre {
+    margin: 0;
+}
+
+.hyrje div {
+    max-width: 50%;
+}
+
+.hyrje h2 {
+    margin-top: 0;
+}
+
+.hyrje a {
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hyrje a:hover {
+    text-decoration: underline;
+}
+
+/* New button styles */
+.horizontal-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.horizontal-buttons a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.horizontal-buttons a:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.info .Kolona {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Eventet {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.Lajme, .Events {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Sukseset {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Perdorues_python {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.Perdorues_python ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Baza {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.Baza a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Baza a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ccd2d7;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
